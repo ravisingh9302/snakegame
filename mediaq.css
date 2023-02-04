@@ -1,0 +1,146 @@
+
+/*' MEDIA QUERIS 810px  */
+@media only screen and (max-width: 810px) {
+  #board {
+    position: fixed;
+    left: 19vmax;
+  }
+
+  #Score1 {
+    font-size: 4vmax;
+  }
+
+  #Score2 {
+    font-size: 3.5vmax;
+  }
+
+  #level {
+    font-size: 3.5vmax;
+  }
+
+  #button {
+    display: grid;
+    right: 3vmin;
+    top: 30vmin;
+  }
+
+  button {
+    width: 9vmax;
+  }
+
+  #controlcont {
+    display: none;
+}
+}
+
+/*' MEDIA QUERIS 600px  */
+
+@media only screen and (max-width: 600px) {
+  #board {
+    position: fixed;
+    left: auto;
+    bottom: 20vmax;
+    height: 85vmin;
+  }
+
+  #Score1 {
+    top: 1vmin;
+    font-size: 5vmin;
+  }
+
+  #Score2 {
+    font-size: 5vmin;
+    top: 1vmin;
+  }
+
+  #level {
+    font-size: 5vmin;
+    top: 1min;
+    top: 1vmax;
+    right: auto;
+    left: auto;
+  }
+
+  #button {
+    right: auto;
+    top: auto;
+    bottom: 0;
+  }
+
+  button {
+    width: 23vmin;
+    height: 6vmax;
+  }
+
+  #gametype {
+    top: 3.5vmax;
+    left: auto;
+    width: 80vmin;
+  }
+
+  label {
+    font-size: 1.5vmax;
+    letter-spacing: 2px;
+    margin: 1vmin 2vmin 2vmin 2vmin;
+    padding: 3px;
+  }
+
+  #speed{
+    font-size: 3vmin;
+    width: 10vmin;
+  }
+}
+
+
+/*' MEDIA QUERIS 380px  */
+
+@media only screen and (max-width: 380px) {
+  #board {
+    bottom: 27vmax;
+    height: 96vmin;
+  }
+
+  #Score1 {
+    top: 1vmin;
+    font-size: 6vmin;
+  }
+
+  #Score2 {
+    top: 1vmin;
+    font-size: 5vmin;
+  }
+
+  #level {
+    font-size: 6vmin;
+    top: 5vmin;
+    right: auto;
+    left: auto;
+  }
+
+  #button {
+    right: auto;
+    top: auto;
+    bottom: 0;
+  }
+
+  button {
+    width: 25vmin;
+    height: 14vmin;
+  }
+
+  #gametype {
+    top: 6vmax;
+    left: auto;
+    width: 80vmin;
+  }
+  h2 {
+    font-size: 6vmin;
+  }
+  label {
+    font-size: 3vmin;
+    letter-spacing: 1px;
+    margin: 1vmin 2vmin 2vmin 2vmin;
+    padding: 3px;
+  }
+
+}

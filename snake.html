@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>snake</title>
+  
+  <link rel="stylesheet" href="snakecss.css" />
+  <link rel="stylesheet" href="mediaq.css" />
+
+  <style>
+    #controlcont {
+      display: none;
+      position: absolute;
+      top: 23vmin;
+      right: 8vmin;
+    }
+
+    #btn {
+      background-color: goldenrod;
+      width: 12vmin;
+      padding: 0;
+      height: 5vmin;
+      cursor: pointer;
+      font-size: 3vmin;
+    }
+
+
+    #control {
+      background-color: antiquewhite;
+      padding: 20px;
+      position: absolute;
+      width: 40vmin;
+      left: -50vmin;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="body">
+    <div id="Score1">Score: 0</div>
+    <div id="Score2">Hi score: 0</div>
+
+    <div id="gametype">
+      <h2>Change Type</h2>
+      <input type="radio" id="wallhit" name="gametype" style="display: none" />
+      <input type="radio" id="wallinside" name="gametype" style="display: none" checked />
+      <label for="wallhit" id="wallhitlab">wallhit</label>
+      <label for="wallinside" id="wallinsidelab">wallinside</label>
+    </div>
+
+    <div id="level">
+      Leval: <input type="number" min="0" max="20" id="speed" value="4" />
+    </div>
+    <div id="controlcont">
+      <button id="btn">Controls</button>
+      <div id="control">
+        <li>for UP : UpArrow , W</li>
+        <li>for DOWN : DownArrow , S</li>
+        <li>for LEFT : LeftArrow , A</li>
+        <li>for RIGHT: RightArrow , D</li>
+        <li>for PAUSE: Spacebar , Enter</li>
+      </div>
+    </div>
+    <div id="board"></div>
+    <div id="button">
+      <button id="up">up</button>
+      <button id="left">left</button>
+      <button id="pause">=</button>
+      <button id="right">right</button>
+      <button id="down">down</button>
+    </div>
+  </div>
+
+  
+
+  <script src="snake.js"></script>
+</body>
+
+</html>
