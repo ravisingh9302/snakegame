@@ -6,7 +6,7 @@ This is snake game by using HTML CSS and JS
 
 *Here this the age calculator which coded in HTML, CSS,JAVASCRIPT*
 
-<p align="center" ><img src="https://repository-images.githubusercontent.com/585140150/d9ae6a7b-36a7-4ddf-8bfb-a9ace0ea22b6" alt="" height="300px"></p>
+<p align="center" ><img src="https://github.com/ravisingh9302/snakegame/blob/main/img/Screenshot%20(424).png" alt="" height="300px"></p>
 
 
 
